@@ -1,0 +1,217 @@
+/*
+body{
+      background-color: blue;
+    }
+*/
+
+
+body {
+      color: #40514e;
+      margin: 0;
+      text-align: center;
+     font-family: 'Merriweather', serif;
+
+    }
+
+h1  {
+
+      margin: 50px auto 0 auto;
+      font-family: 'Sacramento', cursive;
+
+
+/* 100% = 16px
+    X   = 90px
+  X =  (100 x 90)/16 = 562.5%
+
+  Also 1em = 16px
+       X   = 90px
+       X = (1*90)/16 = 5.625em
+  */
+      font-size: 5.625rem;
+      line-height: 2;
+      color: #66BFBF;
+    }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+
+/*** convert 40 px to rem
+1 rem = 16px
+    x = 40px
+  x = 40/16 = 2.5rem
+  ***/
+
+  font-size: 2.5rem;
+color: #66BFBF;
+padding-bottom: 20px;
+    }
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-align: center;
+    }
+
+p {
+    line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr{
+border: dotted #eaf6f6 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+
+/*    border-style: dotted;
+    border-top: 0;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%; */
+  }
+
+  .img-profile {
+                padding: 50px;
+  }
+
+.jrole {
+        font-family: 'Concert One', cursive;
+        font-size: 1.75rem;
+        color: #66BFBF;
+        font-weight: normal;
+        line-height: 2;
+
+        }
+
+.Net-Sec {
+      text-decoration: underline;
+      font-family: 'Concert One', cursive;
+
+      }
+    /*******************HTML DIVS********************/
+    .top-container     {
+                        background: #b2deec;
+                        position: relative;
+                        padding-top: 100px;
+                      }
+
+    .middle-container {
+margin: 100px auto;
+                      }
+
+    .bottom-container {
+                      margin-top: 50px;
+                      background-color: #66bfbf;
+                      padding: 50px 0 20px;
+                      }
+
+    .top-cloud {
+                  position: absolute;
+                  right: 300px;
+                  top: 40px;
+                  height: 70px;
+                  width: 80px;
+                }
+
+    .bottom-cloud {
+                  position: absolute;
+                  left: 250px;
+                  bottom: 300px;
+                  height: 70px;
+                  width: 80px;
+                  }
+
+.intro {
+  width: 30% ;
+  margin: auto;
+}
+
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.cli {
+width: 25%;
+float: left;
+margin-right:   30px;
+}
+
+.palo_alto_logo{
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.ms-gif {
+  width: 25%;
+  float: left;
+  margin-right:   30px;
+}
+.img-profile {
+  height: 200px;
+  width: 200px;
+}
+
+.btn {
+
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 21px;
+   font-weight: 100;
+   padding: 12px;
+   background-color: #66BFBF;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.btn:hover {
+   background: #98C4EB;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.cr {
+
+    color: #eaf6f6;
+    font-size: 0.75 erm;
+    padding: 20px 0;
+}
+
+.con-desc {
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+.footer-link {
+/*    padding: 30px; */
+}
