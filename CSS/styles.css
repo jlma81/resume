@@ -155,7 +155,11 @@ margin-right:   30px;
   float: right;
   margin-left: 30px;
 }
-
+.terraform_logo{
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
 .ms-gif {
   width: 25%;
   float: left;
